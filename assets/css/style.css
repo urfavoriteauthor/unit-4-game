@@ -1,0 +1,24 @@
+#crystalImages {
+    background-color:bisque;width: 35%;
+}
+
+.rules {
+    width:35%;padding:1%;background-color: black; font-family: 'Times New Roman', Times, serif; font-weight: bold;color: white;
+}
+
+#title {
+    letter-spacing: 2ex; text-align: center;
+}
+
+.footer {
+    width: 100%; background-color: black;letter-spacing: 2ex;
+}
+#win-loss-tracker {
+    border-style: solid; border: 2px; background-color: brown;
+}
+.totalScore {
+    background-color: sienna;
+}
+#calcScore {
+    background-color:saddlebrown;
+}
