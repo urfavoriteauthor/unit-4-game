@@ -14,24 +14,38 @@
 
 </head>
 
-<body>
+<body id="bodyTag">
     <header>
-        <h1 id="title">Crystal Guesser!</h1>
+        <h1 id="title"><u>Crystal Guesser!</u></h1>
     </header>
     <div class="rules">
-        <h2>Rules</h2>
-        <p>You will be given a random number at the start of the game!</p>
-        <p>Click on any of the crystals to generate a number</p>
-        <p>Continue clicking on crystals until your number matches the given number.</p>
-        <p>If your number matches, You Win! If you go over, You Lose!</p>
+        <h2><strong><u>Rules!</u></strong></h2>
+        <ol>
+            <li>1. You will be given a random number at the start of the game!</li>
+            <li>2. Click on any of the crystals to generate a number</li>
+            <li>3. Continue clicking on crystals until your number matches the given number.</li>
+            <li>4. If your number matches, You Win! If you go over, You Lose!</li>
+            <li>5. To play again REFRESH the page!</li>
+        </ol>
     </div>
     </div>
     <div id="crystalImages">
-        <input id="purple" type="image" src="assets/images/purplecrystal.jpg" alt="purpleCrystal" width="100px">
-        <input id="green" type="image" src="assets/images/greencrystal.jpg" alt="greenCrystal" width="100px">
-        <img id="blue" type="image" src="assets/images/bluecrystal.jpg" alt="blueCrystal" width="100px" height="100px">
-        <img id="red" type="image" src="assets/images/redcrystal.jpg" alt="redCrystal" width="100px">
-
+        <div class="col">
+            <div class="row">
+                <input id="purple" type="image" src="assets/images/purplecrystal.jpg" alt="purpleCrystal" width="100px"
+                    height="100px">
+                <h4>Purple</h4>
+                <input id="green" type="image" src="assets/images/greencrystal.jpg" alt="greenCrystal" width="100px"
+                    height="100px">
+                <h4>Green</h4>
+                <img id="blue" type="image" src="assets/images/bluecrystal.jpg" alt="blueCrystal" width="100px"
+                    height="100px">
+                <h4>Blue</h4>
+                <img id="red" type="image" src="assets/images/redcrystal.jpg" alt="redCrystal" width="100px"
+                    height="100px">
+                <h4>Red</h4>
+            </div>
+        </div>
     </div>
 
     <div class="container">
@@ -45,13 +59,18 @@
         <div id="win-loss-tracker">
 
             <div>
-                <h3>Wins: </h3>
-                <span id="winner"></span>
+                <div class="container">
+                    <h3>Wins: </h3>
+                    <span id="winner"></span>
+                </div>
             </div>
-
+            <br>
+            <br>
             <div>
-                <h3>Losses: </h3>
-                <span id="loser"></span>
+                <div class="container">
+                    <h3>Losses: </h3>
+                    <span id="loser"></span>
+                </div>
             </div>
         </div>
         <div class="totalScore">
@@ -63,10 +82,15 @@
         <div class="calcScore">
             <h3>Your current Score is:</h3>
             <input id="currentScore" type="text" disabled="disabled">
-
+<br>
+<br>
+<br>
+<br>
         </div>
         <div class="footer">
-            <footer><h1>THANKS FOR PLAYING!</h1></footer>
+            <footer>
+                <h1>THANKS FOR PLAYING!</h1>
+            </footer>
         </div>
 
         <!-- Javascript -->

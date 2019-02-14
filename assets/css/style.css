@@ -1,24 +1,29 @@
+#bodyTag {
+    background-color:aquamarine;
+}
+
 #crystalImages {
-    background-color:bisque;width: 35%;
+    background-color:navy;width: 60%; height: 200px;padding: 50px;color: white; border-style: solid; border: 3px; border: black;
 }
 
 .rules {
-    width:35%;padding:1%;background-color: black; font-family: 'Times New Roman', Times, serif; font-weight: bold;color: white;
-}
+    clear:both;width:45%;padding:1%;background-color:turquoise; font-family: 'Times New Roman', Times, serif; font-weight: bold;color: white;
+padding: 2px;border: black; border-style: solid;line-height: 35px;color: black;font-size: 20px;}
 
 #title {
-    letter-spacing: 2ex; text-align: center;
+    letter-spacing: 2ex; text-align: center; font-family: 'Times New Roman', Times, serif, sans-serif;font-weight: bolder;padding: 50px;
 }
 
-.footer {
-    width: 100%; background-color: black;letter-spacing: 2ex;
-}
+
 #win-loss-tracker {
-    border-style: solid; border: 2px; background-color: brown;
+    border-style: solid; border: 2px; background-color:cyan;height:200px; width: 45%;
 }
 .totalScore {
-    background-color: sienna;
+    background-color:navy; width: 45%;height: 150px; color: white;
 }
-#calcScore {
-    background-color:saddlebrown;
+.calcScore {
+    background-color:white;width: 45%;
+}
+.footer {
+    width: 100%; background-color: black;letter-spacing: 2ex;position: absolute; height: 100px;margin-top: -40px;display: none;
 }

@@ -52,17 +52,14 @@ $(document).ready(function () {
 
     function evalScore() {
         if (currentScore === gameScore) {
-            // borrowed
+
             winsCounter++;
-            // $("#winn").html("<h2>Winner!</h2>");
+
             $("#winner").html("<h3>" + winsCounter + "</h3>");
-            // borrowed end
+
             alert("You Win!")
-            // currentScore = 1;
-            // // winsCounter="";
-            // $('#winner').append(winsCounter++);
 
-
+            currentScore = 0;
             randomNumber();
         }
         else if (currentScore > gameScore) {
@@ -70,23 +67,12 @@ $(document).ready(function () {
             lossesCounter++;
             $("#loser").html("<h3>" + lossesCounter + "</h3>");
             alert("You Lose!")
-            // currentScore = 1;
-            // //    var currentLosses = currentScore++;
-            // // lossesCounter="";
-            // $('#loser').append(currentLosses);
             currentScore = 0;
             randomNumber();
+            
         }
     }
-    // $('#crystalImages').click(function () {
-    //     counter = i++;
-    //     alert("You clicked" + counter + "Times")
-    // });
-    // // var newScore = ;
-    // var scoreInitial = (Math.floor(Math.Random * 1000) + 1);
-    // $('#score').click(function() {
-    //     console.log(scoreInitial)
-    // };
+
 
 
 
